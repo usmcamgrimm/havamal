@@ -75,6 +75,15 @@ a {
 .newsContainer {
     line-height: 1;
 }
+hr.news {
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid #004B87;
+}
+a.news-link {
+    font-size: 1rem;
+    color: #66add9;
+}
 .formGroup {
     width: 80%;
     max-width: 400px;
@@ -155,6 +164,7 @@ a {
 h3 {
     font-family: Grenze;
     font-size: 2rem;
+    font-weight: normal;
     color: #66add9;
 }
 @media screen and (max-width: 768px) {
